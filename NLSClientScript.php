@@ -458,7 +458,7 @@ curl_info:' . print_r(curl_getinfo($this->ch), true) . '
 						
 						if (!$err) {
 							$merged .= ($ret.'
-	;');
+');
 						} else {
 							$merged .= '
 	/*
